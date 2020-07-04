@@ -1,0 +1,10 @@
+URL = "http://books.toscrape.com/catalogue/category/books_1/index.html"
+BOOK_CLASS = "col-xs-6 col-sm-4 col-md-3 col-lg-3"
+BOOK_TAG = 'li'
+BOOK_FILE = 'bookScrap.csv'
+BOOK_FILE_HEADER = "book_name,image_link,rating,price,in_stock\n"
+CATEGORY_CLASS = "nav nav-list"
+CAT_TAG = 'ul'
+CAT_FILE = 'category.csv'
+CAT_FILE_HEADER = "cat_name,link\n"
+CAT_LIMIT = 51
